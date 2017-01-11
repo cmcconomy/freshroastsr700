@@ -73,13 +73,13 @@ fifty-four seconds would be represented as 5.9 on the roaster and ``3B`` in hex.
 This value will not cause the roaster to start roasting. It only dictates what 
 the roaster will do once it begins. Below is a list of valid values.
 
-``00`` - No Heat (Cooling)
+``00`` - No Heat *(Cooling)*
 
-``01`` - Low Heat
+``01`` - Low Heat *(390°F)*
 
-``02`` - Medium Heat
+``02`` - Medium Heat *(455°F)*
 
-``03`` - High Heat
+``03`` - High Heat *(490°F)*
 
 **Current Temperature (2 bytes)** - This field is the current temperature as 
 recorded by the roaster encoded in hex. When the roaster does not read a 
